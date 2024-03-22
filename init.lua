@@ -16,5 +16,6 @@ require 'plugins'
 require 'keymaps'
 require 'setup_lua-line'
 require 'setup_vim-polyglot'
+require 'setup_neo-tree'
 -- colorscheme
 vim.cmd 'colorscheme kanagawa'
