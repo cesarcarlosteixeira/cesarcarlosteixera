@@ -1,0 +1,1 @@
+--vim.cmd [[packadd ']start/sheerun/vim-polyglot']]
