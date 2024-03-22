@@ -1,4 +1,4 @@
--- Set editor options
+-- editor options
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.autoindent = true
@@ -16,5 +16,5 @@ require 'plugins'
 require 'keymaps'
 require 'setup_lua-line'
 require 'setup_vim-polyglot'
--- Set colorscheme
+-- colorscheme
 vim.cmd 'colorscheme kanagawa'
