@@ -14,8 +14,7 @@ vim.cmd 'set termguicolors'
 
 require 'plugins'
 require 'keymaps'
-require 'setup_lua-line'
-require 'setup_vim-polyglot'
-require 'setup_neo-tree'
+require 'setups'
+
 -- colorscheme
 vim.cmd 'colorscheme kanagawa'

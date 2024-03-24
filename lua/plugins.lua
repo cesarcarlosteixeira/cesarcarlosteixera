@@ -22,6 +22,19 @@ local res = packer.startup(function ()
 	}
 
 	use 'sheerun/vim-polyglot'
+	
+	
+	use {
+		"windwp/nvim-autopairs",
+		event = "InsertEnter"
+	}
+
+	use {
+		'nvim-telescope/telescope.nvim', 
+		branch = '0.1.x',
+		dependencies = {'nvim-lua/plenary.nvim'}
+	}
+	
 end)
 
 return res
