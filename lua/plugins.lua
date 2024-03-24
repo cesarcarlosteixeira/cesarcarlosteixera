@@ -1,5 +1,5 @@
--- just some useful plugins,
-
+-- just some useful plugins.
+--
 local packer = require('packer')
 local res = packer.startup(function ()
 	use 'wbthomason/packer.nvim'
@@ -21,18 +21,15 @@ local res = packer.startup(function ()
 		}
 	}
 
-	use 'sheerun/vim-polyglot'
-	
-	
-	use {
-		"windwp/nvim-autopairs",
-		event = "InsertEnter"
-	}
+	use 'sheerun/vim-polyglot'	
 
 	use {
 		'nvim-telescope/telescope.nvim', 
 		branch = '0.1.x',
-		dependencies = {'nvim-lua/plenary.nvim'}
+		dependencies = {'nvim-lua/plenary.nvim'},
+		config = function()
+			require("nvim-autopairs").setup {}
+		end
 	}
 	
 end)
