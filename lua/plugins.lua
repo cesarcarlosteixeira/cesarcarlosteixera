@@ -1,5 +1,5 @@
 -- just some useful plugins.
---
+
 local packer = require('packer')
 local res = packer.startup(function ()
 	use 'wbthomason/packer.nvim'
@@ -26,10 +26,7 @@ local res = packer.startup(function ()
 	use {
 		'nvim-telescope/telescope.nvim', 
 		branch = '0.1.x',
-		dependencies = {'nvim-lua/plenary.nvim'},
-		config = function()
-			require("nvim-autopairs").setup {}
-		end
+		dependencies = {'nvim-lua/plenary.nvim'}
 	}
 	
 end)
