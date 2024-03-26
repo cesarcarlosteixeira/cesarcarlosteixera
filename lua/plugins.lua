@@ -26,9 +26,10 @@ local res = packer.startup(function ()
 	use {
 		'nvim-telescope/telescope.nvim', 
 		branch = '0.1.x',
-		dependencies = {'nvim-lua/plenary.nvim'}
+		requires = {'nvim-lua/plenary.nvim'}
 	}
-	
+
+
 end)
 
 return res

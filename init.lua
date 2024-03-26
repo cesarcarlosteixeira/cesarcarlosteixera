@@ -17,4 +17,4 @@ require 'keymaps'
 require 'setups'
 
 -- colorscheme
-vim.cmd 'colorscheme kanagawa'
+vim.cmd 'colorscheme kanagawa' 

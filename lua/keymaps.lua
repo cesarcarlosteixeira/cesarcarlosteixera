@@ -13,6 +13,7 @@ map('n', '<leader>.w', '<Cmd>w!<Cr>')
 map('n', '<leader>.q', '<Cmd>q!<Cr>')
 map('n', '<leader>.x', '<Cmd>x!<Cr>')
 
+
 for i = 1, 9 do
 	local function lhs()
 		return ('<leader>%d'):format(i)
